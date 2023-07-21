@@ -1,0 +1,6 @@
+.completed-projects__img {
+  grid-area: img;
+  width: 679px;
+  height: 482px;
+  object-fit: cover;
+}

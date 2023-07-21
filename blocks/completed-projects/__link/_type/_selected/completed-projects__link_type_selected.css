@@ -1,0 +1,5 @@
+.completed-projects__link_type_selected {
+  color: #E3B873;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}

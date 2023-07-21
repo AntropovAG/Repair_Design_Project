@@ -1,0 +1,7 @@
+.completed-projects__data-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 42px;
+  gap: 34px;
+}

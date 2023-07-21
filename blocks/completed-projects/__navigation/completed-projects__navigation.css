@@ -1,0 +1,5 @@
+.completed-projects__navigation {
+  grid-area: nav;
+  display: flex;
+  gap: 60px;
+}

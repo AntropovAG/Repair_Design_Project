@@ -1,0 +1,11 @@
+.completed-projects__container {
+  display: grid;
+  grid-template-areas:
+  ". nav"
+  "discription img";
+  grid-template-columns: 442px 679px;
+  gap: 50px 50px;
+  max-width: 1171px;
+  margin: 0 auto;
+  padding: 107px 0 416px;
+}

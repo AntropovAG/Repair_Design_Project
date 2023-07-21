@@ -18,3 +18,17 @@
 @import url(/blocks/hero/__description/hero__description.css);
 @import url(/blocks/hero/__button-container/hero__button-container.css);
 @import url(/blocks/hero/__button/hero__button.css);
+@import url(/blocks/completed-projects/completed-projects.css);
+@import url(/blocks/completed-projects/__container/completed-projects__container.css);
+@import url(/blocks/completed-projects/__navigation/completed-projects__navigation.css);
+@import url(/blocks/completed-projects/__link/completed-projects__link.css);
+@import url(/blocks/completed-projects/__link/_type/_selected/completed-projects__link_type_selected.css);
+@import url(/blocks/completed-projects/__description-container/completed-projects__description-container.css);
+@import url(/blocks/completed-projects/__title/completed-projects__title.css);
+@import url(/blocks/completed-projects/__description/completed-projects__description.css);
+@import url(/blocks/completed-projects/__data-container/completed-projects__data-container.css);
+@import url(/blocks/completed-projects/__data/completed-projects__data.css);
+@import url(/blocks/completed-projects/__data-title/completed-projects__data-title.css);
+@import url(/blocks/completed-projects/__data-description/completed-projects__data-description.css);
+@import url(/blocks/completed-projects/__data-button/completed-projects__data-button.css);
+@import url(/blocks/completed-projects/__img/completed-projects__img.css);

@@ -1,0 +1,13 @@
+.completed-projects__title {
+  max-width: 253px;
+  color: #E3B873;
+  font-family: Yeseva One;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.6%;
+  letter-spacing: -1.89px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}

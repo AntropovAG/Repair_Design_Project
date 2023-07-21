@@ -1,0 +1,5 @@
+.completed-projects__description-container {
+  grid-area: discription;
+  display: flex;
+  flex-direction: column;
+}
