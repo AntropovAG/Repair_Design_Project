@@ -1,8 +1,8 @@
 .header__button {
-  text-align: center;
+  min-width: 161px;
   font-size: 11px;
   font-style: italic;
   line-height: normal;
   text-transform: uppercase;
-  padding: 13px 33px;
+  padding: 13px 20px;
 }

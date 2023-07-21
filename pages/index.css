@@ -13,3 +13,8 @@
 @import url(/blocks/header/__button/header__button.css);
 @import url(/blocks/hero/hero.css);
 @import url(/blocks/hero/__container/hero__container.css);
+@import url(/blocks/hero/__title/hero__title.css);
+@import url(/blocks/hero/__title/_color/_orange/hero__title_color_orange.css);
+@import url(/blocks/hero/__description/hero__description.css);
+@import url(/blocks/hero/__button-container/hero__button-container.css);
+@import url(/blocks/hero/__button/hero__button.css);
