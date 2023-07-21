@@ -1,0 +1,13 @@
+.repair__card-button {
+  max-width: 228px;
+  padding: 15px 18px;
+  color: #FFF;
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138.6%;
+  text-transform: uppercase;
+  margin: -26px 0 0 31px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+}

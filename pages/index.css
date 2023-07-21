@@ -51,3 +51,14 @@
 @import url(../blocks/checkbox/__input/checkbox__input.css);
 @import url(../blocks/checkbox/__img/checkbox__img.css);
 @import url(../blocks/checkbox/__description/checkbox__description.css);
+@import url(../blocks/repair/repair.css);
+@import url(../blocks/repair/__container/repair__containner.css);
+@import url(../blocks/repair/__title/repair__title.css);
+@import url(../blocks/repair/__img/repair__img.css);
+@import url(../blocks/repair/__cards/repair__cards.css);
+@import url(../blocks/repair/__card/repair__card.css);
+@import url(../blocks/repair/__card-img/repair__card-img.css);
+@import url(../blocks/repair/__card-container/repair__card-container.css);
+@import url(../blocks/repair/__card-title/repair__card-title.css);
+@import url(../blocks/repair/__card-list/repair__card-list.css);
+@import url(../blocks/repair/__card-button/repair__card-button.css);

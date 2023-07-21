@@ -1,0 +1,7 @@
+.repair__cards {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 230px 0;
+  gap: 30px;
+}

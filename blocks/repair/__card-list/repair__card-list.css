@@ -1,0 +1,10 @@
+.repair__card-list {
+  list-style: inside disc;
+  color: #959595;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.6%;
+  padding: 13px 0 49px 34px;
+  margin: 0;
+}
