@@ -1,0 +1,7 @@
+.control__container {
+  max-width: 817px;
+  margin: -324px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+.control__video {
+  background-image: url(../../../images/video_thumbnail_img.png);
+  width: 817px;
+  height: 434px;
+  position: relative;
+}
+
+.control__video::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+}

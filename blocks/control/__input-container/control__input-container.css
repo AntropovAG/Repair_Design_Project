@@ -1,0 +1,4 @@
+.control__input-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -72,13 +72,30 @@
     <section class="control">
       <div class="control__container">
         <h2 class="control__title">online control</h2>
-        <img class="control__img">
-        <img class="control__video">
-        <img>
+        <img class="control__img" src="./images/camera_icon.svg" alt="security camera">
+        <div class="control__video">
+          <button class="control__video-button" type="button"></button>
+        </div>
+        <img class="control__divider-img" src="./images/divider_img.svg" alt="divider">
         <p class="control__description">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
           Leave a request below and you will receive a link to the broadcast.</p>
-          <form>
-
+          <form class="control__form">
+            <div class="control__form-container">
+              <div class="control__input-container">
+                <label class="input-labеl" for="name">Name</label>
+                <input class="control__input input" type="text" id="name" placeholder="What is your name:">
+              </div>
+              <div class="control__input-container">
+                <label class="input-labеl" for="name">Phone</label>
+                <input class="control__input input" type="text" id="name" placeholder="Your phone number:">
+              </div>
+              <button class="control__form-button button" type="submit">submit</button>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" class="checkbox__input" >
+              <span class="checkbox__img"></span>
+              <span class="checkbox__description">I agree to the processing of personal data.</span>
+            </label>
           </form>
       </div>
     </section>

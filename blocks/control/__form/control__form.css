@@ -1,0 +1,6 @@
+.control__form {
+  display: flex;
+  flex-direction: column;
+  min-width: 769px;
+  margin: 91px 0 147px 0;
+}
