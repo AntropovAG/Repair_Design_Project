@@ -1,0 +1,7 @@
+.measure__column-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  max-width: 506px;
+  margin-top: 105px;
+}

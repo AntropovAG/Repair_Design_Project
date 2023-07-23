@@ -1,0 +1,8 @@
+.measure__input {
+  background-color: inherit;
+  color: #fff;
+}
+
+.measure__input::placeholder {
+  color: #fff;
+}

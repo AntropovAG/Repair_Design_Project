@@ -1,0 +1,6 @@
+.measure__form {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

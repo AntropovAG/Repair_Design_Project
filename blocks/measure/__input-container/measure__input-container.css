@@ -1,0 +1,9 @@
+.measure__input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.measure__input-container:last-of-type {
+  margin-bottom: 16px;
+}

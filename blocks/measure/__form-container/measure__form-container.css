@@ -1,0 +1,6 @@
+.measure__form-container {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  margin: 0 49px 27px;
+}
