@@ -10,5 +10,5 @@
 .checkbox__img::before {
   content: url(../../../images/checkbox_img.svg);
   opacity: 0;
-  transition: .5s;
+  transition: .3s;
 }

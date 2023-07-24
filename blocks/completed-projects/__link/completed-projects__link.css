@@ -8,3 +8,10 @@
   line-height: 138.6%;
   text-transform: uppercase;
 }
+
+.completed-projects__link:hover {
+  color: #E3B873;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  transition: .3s;
+}

@@ -4,3 +4,8 @@
   font-size: 11px;
   line-height: normal;
 }
+
+.footer__navigation-link:hover {
+  color: #E3B873;
+  transition: .3s;
+}

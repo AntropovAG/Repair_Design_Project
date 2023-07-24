@@ -6,3 +6,11 @@
   font-weight: 400;
   line-height: 190.96%;
 }
+
+.fantasies__link:hover {
+  color: #E3B873;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  transition: .3s;
+}
