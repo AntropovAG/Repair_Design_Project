@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  margin-bottom: 110px;
 }
 
 .fantasies::before {

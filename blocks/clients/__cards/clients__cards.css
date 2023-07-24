@@ -1,0 +1,6 @@
+.clients__cards {
+  width: 100%;
+  display: flex;
+  margin-top: 39px;
+  justify-content: space-between;
+}

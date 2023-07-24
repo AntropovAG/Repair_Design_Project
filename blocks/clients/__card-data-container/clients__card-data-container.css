@@ -1,0 +1,9 @@
+.clients__card-data-container {
+  display: flex;
+  background: #E3B873;
+  box-shadow: 5px 5px 20px 0px rgba(227, 184, 115, 0.50);
+  width: 293px;
+  height: 54px;
+  align-items: center;
+  margin-top: -27px;
+}

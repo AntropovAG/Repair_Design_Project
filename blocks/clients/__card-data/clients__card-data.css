@@ -1,0 +1,9 @@
+.clients__card-data {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.clients__card-data:nth-of-type(1) {
+  border-right: .75px solid white;
+}
