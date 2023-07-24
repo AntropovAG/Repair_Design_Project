@@ -81,3 +81,14 @@
 @import url(../blocks/measure/__sale-container/measure__sale-container.css);
 @import url(../blocks/measure/__sale-icon/measure__sale-icon.css);
 @import url(../blocks/measure/__sale-text/measure__sale-text.css);
+@import url(../blocks/fantasies/fantasies.css);
+@import url(../blocks/fantasies/__container/fantasies__container.css);
+@import url(../blocks/fantasies/__list-container/fantasies__list-container.css);
+@import url(../blocks/fantasies/__title/fantasies__title.css);
+@import url(../blocks/fantasies/__list/fantasies__list.css);
+@import url(../blocks/fantasies/__list-item/fantasies__list-item.css);
+@import url(../blocks/fantasies/__link/fantasies__link.css);
+@import url(../blocks/fantasies/__link/_type/_selected/fantasies__link_type_selected.css);
+@import url(../blocks/fantasies/__photo-wrapper/fantasies__photo-wrapper.css);
+@import url(../blocks/fantasies/__photo-container/fantasies__photo-container.css);
+@import url(../blocks/fantasies/__photo/fantasies__photo.css);

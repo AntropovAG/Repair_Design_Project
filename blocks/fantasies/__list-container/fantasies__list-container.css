@@ -1,0 +1,8 @@
+.fantasies__list-container {
+  display: flex;
+  flex-direction: column;
+  width: 411px;
+  margin: 137px 77px 0 0;
+  position: relative;
+  z-index: 1;
+}

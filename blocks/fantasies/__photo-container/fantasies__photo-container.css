@@ -1,0 +1,13 @@
+.fantasies__photo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+
+.fantasies__photo-container:first-of-type {
+  margin-top: -41px;
+}
+
+.fantasies__photo-container:last-of-type {
+  margin-top: -112px;
+}

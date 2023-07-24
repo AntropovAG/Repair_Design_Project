@@ -1,0 +1,6 @@
+.fantasies__photo-wrapper {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  gap: 43px;
+}
