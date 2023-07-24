@@ -182,16 +182,16 @@
             <h2 class="measure__form-title">Leave a request for free departure of the measurer</h2>
             <div class="measure__form-container">
               <div class="measure__input-container">
-                <label class="measure__input-label input-labеl" for="name">Name</label>
-                <input class="measure__input input" type="text" id="name" placeholder="What is your name:">
+                <label class="measure__input-label input-labеl" for="person_name">Name</label>
+                <input class="measure__input input" type="text" id="person_name" placeholder="What is your name:">
               </div>
               <div class="measure__input-container">
-                <label class="measure__input-label input-labеl" for="phone">Phone</label>
-                <input class="measure__input input" type="text" id="phone" placeholder="Your phone number:">
+                <label class="measure__input-label input-labеl" for="person_phone">Phone</label>
+                <input class="measure__input input" type="text" id="person_phone" placeholder="Your phone number:">
               </div>
               <div class="measure__input-container">
-                <label class="measure__input-label input-labеl" for="email">Email</label>
-                <input class="measure__input input" type="email" id="email" placeholder="Your phone number:">
+                <label class="measure__input-label input-labеl" for="person_email">Email</label>
+                <input class="measure__input input" type="email" id="person_email" placeholder="Your phone number:">
               </div>
               <label class="measure__checkbox checkbox">
                 <input type="checkbox" class="checkbox__input" >
@@ -310,9 +310,55 @@
         </div>
       </div>
     </section>
+    <section class="contacts">
+      <div class="contacts__container">
+        <form class="contacts__form">
+          <div class="contacts__form-container">
+            <h2 class="contacts__form-title">have any questions?</h2>
+            <div class="contacts__form-inputs">
+              <div class="contacts__input-container">
+                <label class="contacts__input-label input-labеl" for="persons_name">Name</label>
+                <input class="contacts__input input" type="text" id="persons_name" placeholder="What is your name:">
+              </div>
+              <div class="contacts__input-container">
+                <label class="contacts__input-label input-labеl" for="persons_phone">Phone</label>
+                <input class="contacts__input input" type="text" id="persons_phone" placeholder="Your phone number:">
+              </div>
+            </div>
+            <div class="contacts__input-container">
+              <label class="contacts__input-label input-labеl" for="question">Question</label>
+              <input class="contacts__input input" type="text" id="question" placeholder="Your phone number:">
+            </div>
+            <label class="contacts__checkbox checkbox">
+              <input type="checkbox" class="checkbox__input" >
+              <span class="checkbox__img"></span>
+              <span class="contacts__checkbox-description checkbox__description">I agree to the processing of personal data</span>
+            </label>
+            <button class="contacts__button button" type="submit">Submit</button>
+          </div>
+        </form>
+        <h2 class="contacts__title">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h2>
+        <a class="contacts__link" href="#"><img class="contacts__link-img" src="./images/message_icon.svg" alt=""></a>
+        <img class="contacts__map" src="./images/map.png" alt="map">
+      </div>
+    </section>
   </main>
-  <footer>
-
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__title">IC "Repair Design Project"</p>
+      <nav>
+        <ul class="footer__navigation">
+          <li><a class="footer__navigation-link footer__navigation-link_type_selected" href="#">HOME</a></li>
+          <li><a class="footer__navigation-link" href="#">PROJECTS</a></li>
+          <li><a class="footer__navigation-link" href="#">MEASUREMENT</a></li>
+          <li><a class="footer__navigation-link" href="#">TEAM</a></li>
+          <li><a class="footer__navigation-link" href="#">REVIEWS</a></li>
+          <li><a class="footer__navigation-link" href="#">CONTACTS</a></li>
+        </ul>
+      </nav>
+      <a class="footer__phone" href="#">+7 (928) 768-32-39</a>
+      <button class="footer__button button" type="button">Request a call</button>
+    </div>
   </footer>
 </body>
 </html>

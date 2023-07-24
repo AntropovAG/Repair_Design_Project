@@ -1,0 +1,8 @@
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 925px;
+  margin: -223px auto 0;
+  position: relative;
+  z-index: 1;
+}

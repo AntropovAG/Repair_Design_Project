@@ -1,0 +1,6 @@
+.contacts__form-container {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  margin: 34px;
+}

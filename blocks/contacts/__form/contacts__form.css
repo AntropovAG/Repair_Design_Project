@@ -1,0 +1,7 @@
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 883px;
+  background-color: #181818;
+  align-items: center;
+}

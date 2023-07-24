@@ -1,0 +1,11 @@
+.contacts__button {
+  min-width: 200px;
+  padding: 12px;
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.6%;
+  text-transform: uppercase;
+  margin: 0 auto;
+}

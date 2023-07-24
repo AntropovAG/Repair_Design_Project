@@ -1,0 +1,8 @@
+.footer__container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1256px;
+  min-height: 133px;
+  justify-content: space-between;
+  align-items: center;
+}
