@@ -1,0 +1,5 @@
+.fantasies__carousel-button_type_right {
+  top: 50%;
+  right: 14px;
+  transform: translate(0, -50%);
+}

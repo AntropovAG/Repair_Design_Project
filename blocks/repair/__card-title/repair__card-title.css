@@ -8,3 +8,10 @@
   padding: 25px 0 0 34px;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .repair__card-title {
+    font-size: 15px;
+    padding-top: 21px;
+  }
+}

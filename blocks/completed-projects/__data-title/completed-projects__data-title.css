@@ -10,3 +10,10 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__data-title {
+    max-width: 181px;
+    font-size: 14px;
+  }
+}

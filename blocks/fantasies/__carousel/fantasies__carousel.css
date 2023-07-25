@@ -1,0 +1,13 @@
+.fantasies__carousel {
+  display: flex;
+  max-width: 340px;
+  max-height: 241px;
+  margin-top: 24px;
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  .fantasies__carousel {
+    display: flex;
+  }
+}

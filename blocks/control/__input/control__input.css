@@ -1,3 +1,15 @@
 .control__input {
   width: 231px;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__input {
+    width: 340px;
+    background-color: inherit;
+    color: #fff;
+  }
+
+  .control__input::placeholder {
+    color: #fff;
+  }
+}

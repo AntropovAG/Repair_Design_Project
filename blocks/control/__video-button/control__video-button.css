@@ -14,3 +14,10 @@
 .control__video-button:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__video-button {
+    width: 67px;
+    height: 67px;
+  }
+}

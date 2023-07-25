@@ -1,3 +1,9 @@
 .completed-projects {
   background-color: #131313;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects {
+    background-color: #181818;
+  }
+}

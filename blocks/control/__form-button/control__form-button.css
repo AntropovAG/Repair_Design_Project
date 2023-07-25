@@ -7,3 +7,11 @@
   line-height: 204.6%;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__form-button {
+    order: 2;
+    min-width: 340px;
+    padding: 12px;
+  }
+}

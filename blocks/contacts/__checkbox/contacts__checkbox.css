@@ -1,3 +1,11 @@
 .contacts__checkbox {
   margin: 46px 0 50px 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__checkbox {
+    margin-top: 21px;
+    margin-bottom: 67px;
+    margin-right: auto;
+  }
+}

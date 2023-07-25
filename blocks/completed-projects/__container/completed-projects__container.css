@@ -9,3 +9,13 @@
   margin: 0 auto;
   padding: 107px 0 416px;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    padding-top: 36px;
+    padding-bottom: 58px;
+  }
+}

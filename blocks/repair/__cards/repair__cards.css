@@ -5,3 +5,10 @@
   margin: 0;
   gap: 30px;
 }
+
+@media screen and (max-width: 1300px) {
+  .repair__cards {
+    flex-direction: column;
+    gap: 59px;
+  }
+}

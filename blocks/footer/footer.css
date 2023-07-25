@@ -1,3 +1,9 @@
 .footer {
   background-color: #131313;
 }
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    display: none;
+  }
+}

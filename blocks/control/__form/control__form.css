@@ -4,3 +4,10 @@
   min-width: 769px;
   margin: 91px 0 0 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__form {
+    min-width: 340px;
+    margin-top: 61px;
+  }
+}

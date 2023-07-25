@@ -3,3 +3,10 @@
   height: 421px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1300px) {
+  .repair__card-img {
+    width: 340px;
+    height: 365px;
+  }
+}

@@ -3,3 +3,10 @@
   height: 28px;
   margin: 12px 0 31px 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__img {
+    margin-top: 19px;
+    margin-bottom: 40px;
+  }
+}

@@ -5,3 +5,11 @@
   margin-top: 42px;
   gap: 34px;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__data-container {
+    margin-top: 0;
+    gap: 31px;
+    align-self: flex-start;
+  }
+}

@@ -3,3 +3,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__description-container {
+    align-items: center;
+  }
+}

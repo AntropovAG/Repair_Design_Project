@@ -5,3 +5,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1300px) {
+  .clients {
+    display: none;
+  }
+}

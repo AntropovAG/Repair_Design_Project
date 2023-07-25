@@ -6,3 +6,12 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__container {
+    margin-top: 173px;
+    margin-bottom: 49px;
+    max-width: 340px;
+    z-index: 0;
+  }
+}

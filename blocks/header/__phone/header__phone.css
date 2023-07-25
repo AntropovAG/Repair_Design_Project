@@ -1,5 +1,12 @@
 .header__phone {
   color: #E3B873;
   font-size: 11px;
-  text-decoration-line: underline;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+  .header__phone {
+    color: #FFF;
+    text-decoration: none;
+  }
 }

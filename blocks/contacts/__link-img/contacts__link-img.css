@@ -2,3 +2,10 @@
   width: 71px;
   height: 28px;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__link-img {
+    width: 98px;
+    height: 39px;
+  }
+}

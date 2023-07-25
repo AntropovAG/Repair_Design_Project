@@ -8,3 +8,11 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .hero__description {
+    max-width: 340px;
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+}

@@ -17,3 +17,14 @@
   right: 0;
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.90) 100%);
 }
+
+@media screen and (max-width: 1300px) {
+  .fantasies {
+    background-image: none;
+    height: 211px;
+  }
+
+  .fantasies::before {
+    display: none;
+  }
+}

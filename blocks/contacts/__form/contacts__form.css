@@ -5,3 +5,9 @@
   background-color: #181818;
   align-items: center;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__form {
+    max-width: 340px;
+  }
+}

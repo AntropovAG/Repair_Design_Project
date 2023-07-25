@@ -4,3 +4,9 @@
   z-index: 1;
   gap: 43px;
 }
+
+@media screen and (max-width: 1300px) {
+  .fantasies__photo-wrapper {
+    display: none;
+  }
+}

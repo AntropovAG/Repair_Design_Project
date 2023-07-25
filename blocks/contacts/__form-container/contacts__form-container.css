@@ -4,3 +4,10 @@
   flex-direction: column;
   margin: 34px;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__form-container {
+    width: 340px;
+    margin: 0;
+  }
+}

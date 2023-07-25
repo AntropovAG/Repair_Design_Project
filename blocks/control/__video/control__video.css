@@ -1,5 +1,8 @@
 .control__video {
   background-image: url(../../../images/video_thumbnail_img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 817px;
   height: 434px;
   position: relative;
@@ -13,4 +16,11 @@
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, .8);
+}
+
+@media screen and (max-width: 1300px) {
+  .control__video {
+    width: 340px;
+    height: 207px;
+  }
 }

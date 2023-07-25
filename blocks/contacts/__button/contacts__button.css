@@ -9,3 +9,10 @@
   text-transform: uppercase;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__button {
+    min-width: 340px;
+    padding: 12px;
+  }
+}

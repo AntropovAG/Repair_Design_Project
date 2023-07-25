@@ -1,3 +1,10 @@
 .control {
   margin-bottom: 147px;
 }
+
+@media screen and (max-width: 1300px) {
+  .control {
+    margin-bottom: 0;
+    background-color: #181818;
+  }
+}

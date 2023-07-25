@@ -8,3 +8,12 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .control__description {
+    color: #fff;
+    max-width: 340px;
+    font-size: 11px;
+    line-height: 169.8%;
+  }
+}

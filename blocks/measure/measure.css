@@ -4,3 +4,9 @@
   background-repeat: no-repeat;
   min-height: 645px;
 }
+
+@media screen and (max-width: 1300px) {
+  .measure {
+    display: none;
+  }
+}

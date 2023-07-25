@@ -1,6 +1,17 @@
 .repair__card-container {
   max-width: 330px;
+  min-height: 286px;
   background: #FFF;
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
   margin: -127px 0 0 31px;
+}
+
+@media screen and (max-width: 1300px) {
+  .repair__card-container {
+    max-width: 270px;
+    min-height: 241px;
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    margin-top: -142px;
+    margin-left: 0;
+  }
 }

@@ -46,6 +46,11 @@
           <h2 class="completed-projects__title">Completed projects</h2>
           <p class="completed-projects__description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction
             market we have made happy more than 1000 families</p>
+            <div class="completed-project__carousel">
+              <img class="completed-project__carousel-img" src="./images/completed_project_img.png" alt="completed project photo">
+              <button class="completed-project__carousel-button completed-project__carousel-button_type_left"><img src="./images/left_arrow.svg" alt="left arrow"></button>
+              <button class="completed-project__carousel-button completed-project__carousel-button_type_right"><img src="./images/right_arrow.svg" alt="right arrow"></button>
+            </div>
             <div class="completed-projects__data-container">
               <div class="completed-projects__data">
                 <h3 class="completed-projects__data-title">City:</h3>
@@ -64,9 +69,9 @@
                 <p class="completed-projects__data-description">Upon request</p>
               </div>
             </div>
-            <img class="completed-projects__data-button" src="./images/arrows.svg">
+            <img class="completed-projects__data-button" src="./images/arrows.svg" alt="navigation arrows">
         </div>
-        <img class="completed-projects__img" src="./images/balcony_image.png">
+        <img class="completed-projects__img" src="./images/balcony_image.png" alt="balcony">
       </div>
     </section>
     <section class="control">
@@ -82,20 +87,20 @@
           <form class="control__form">
             <div class="control__form-container">
               <div class="control__input-container">
-                <label class="input-labеl" for="name">Name</label>
+                <label class="control__input-labеl input-labеl" for="name">Name</label>
                 <input class="control__input input" type="text" id="name" placeholder="What is your name:">
               </div>
               <div class="control__input-container">
-                <label class="input-labеl" for="phone">Phone</label>
+                <label class="control__input-labеl input-labеl" for="phone">Phone</label>
                 <input class="control__input input" type="text" id="phone" placeholder="Your phone number:">
               </div>
               <button class="control__form-button button" type="submit">submit</button>
+              <label class="control__form-ckeckbox checkbox">
+                <input type="checkbox" class="checkbox__input" >
+                <span class="checkbox__img"></span>
+                <span class="control__checkbox-description checkbox__description">I agree to the processing of personal data.</span>
+              </label>
             </div>
-            <label class="checkbox">
-              <input type="checkbox" class="checkbox__input" >
-              <span class="checkbox__img"></span>
-              <span class="checkbox__description">I agree to the processing of personal data.</span>
-            </label>
           </form>
       </div>
     </section>
@@ -105,7 +110,7 @@
         <img class="repair__img" src="./images/repair_icon.svg" alt="repair tools">
         <ul class="repair__cards">
           <li class="repair__card">
-            <img class="repair__card-img" src="./images/room_image_1.png">
+            <img class="repair__card-img" src="./images/room_image_1.png" alt="room image">
             <div class="repair__card-container">
               <h3 class="repair__card-title">Redecorating</h3>
               <ul class="repair__card-list">
@@ -121,7 +126,7 @@
             <button class="repair__card-button button">from 900 rub / m2</button>
           </li>
           <li class="repair__card">
-            <img class="repair__card-img" src="./images/room_image_2.png">
+            <img class="repair__card-img" src="./images/room_image_2.png" alt="room image">
             <div class="repair__card-container">
               <h3 class="repair__card-title">Overhaul</h3>
               <ul class="repair__card-list">
@@ -137,7 +142,7 @@
             <button class="repair__card-button button">from 900 rub / m2</button>
           </li>
           <li class="repair__card">
-            <img class="repair__card-img" src="./images/room_image_3.png">
+            <img class="repair__card-img" src="./images/room_image_3.png" alt="room image">
             <div class="repair__card-container">
               <h3 class="repair__card-title">Designer Repair</h3>
               <ul class="repair__card-list">
@@ -212,6 +217,11 @@
       <div class="fantasies__container">
         <div class="fantasies__list-container">
           <h2 class="fantasies__title">We realize your wildest fantasies</h2>
+          <div class="fantasies__carousel">
+            <img class="fantasies__carousel-img" src="./images/fantasies_img.png" alt="fantasies photo">
+            <button class="fantasies__carousel-button fantasies__carousel-button_type_left"><img src="./images/left_arrow.svg" alt="left arrow"></button>
+            <button class="fantasies__carousel-button fantasies__carousel-button_type_right"><img src="./images/right_arrow.svg" alt="right arrow"></button>
+          </div>
           <ul class="fantasies__list">
             <li class="fantasies__list-item"><a class="fantasies__link fantasies__link_type_selected" href="#">American classic</a></li>
             <li class="fantasies__list-item"><a class="fantasies__link" href="#">Empire</a></li>
@@ -228,12 +238,12 @@
         </div>
         <div class="fantasies__photo-wrapper">
           <div class="fantasies__photo-container">
-            <img class="fantasies__photo" src="./images/card_1.png" alt="">
-            <img class="fantasies__photo" src="./images/card_2.png" alt="">
+            <img class="fantasies__photo" src="./images/card_1.png" alt="photo of repair result">
+            <img class="fantasies__photo" src="./images/card_2.png" alt="photo of repair result">
           </div>
           <div class="fantasies__photo-container">
-            <img class="fantasies__photo" src="./images/card_3.png" alt="">
-            <img class="fantasies__photo" src="./images/card_4.png" alt="">
+            <img class="fantasies__photo" src="./images/card_3.png" alt="photo of repair result">
+            <img class="fantasies__photo" src="./images/card_4.png" alt="photo of repair result">
           </div>
         </div>
       </div>
@@ -247,7 +257,7 @@
           <div class="clients__card">
             <div class="clients__card-container">
               <div class="clients__info">
-                <img class="clients__card-img" src="./images/person_photo_1.png" alt="">
+                <img class="clients__card-img" src="./images/person_photo_1.png" alt="person`s photo">
                 <p class="clients__card-name">Fedosova Maria Konstantinovna</p>
               </div>
               <p class="clients__card-description">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project
@@ -256,11 +266,11 @@
             </div>
             <div class="clients__card-data-container">
               <div class="clients__card-data">
-                <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="">
+                <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="measure icon">
                 <p class="clients__card-data-description">40 m2</p>
               </div>
               <div class="clients__card-data">
-                <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="">
+                <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="notepad icon">
                 <p class="clients__card-data-description">48 DAYS</p>
               </div>
             </div>
@@ -268,7 +278,7 @@
           <div class="clients__card">
             <div class="clients__card-container">
               <div class="clients__info">
-                <img class="clients__card-img" src="./images/person_photo_2.png" alt="">
+                <img class="clients__card-img" src="./images/person_photo_2.png" alt="person`s photo">
                 <p class="clients__card-name">Afanasyev Sergey Alexandrovich</p>
               </div>
               <p class="clients__card-description">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project
@@ -277,11 +287,11 @@
               </div>
               <div class="clients__card-data-container">
                 <div class="clients__card-data">
-                  <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="">
+                  <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="measure icon">
                   <p class="clients__card-data-description">90 m2</p>
                 </div>
                 <div class="clients__card-data">
-                  <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="">
+                  <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="notepad icon">
                   <p class="clients__card-data-description">128 DAYS</p>
                 </div>
               </div>
@@ -289,7 +299,7 @@
           <div class="clients__card">
             <div class="clients__card-container">
               <div class="clients__info">
-                <img class="clients__card-img" src="./images/person_photo_3.png" alt="">
+                <img class="clients__card-img" src="./images/person_photo_3.png" alt="person`s photo">
                 <p class="clients__card-name">Kiriev Egor Leonidovich</p>
               </div>
               <p class="clients__card-description">I want to thank the guys for their work. We put your shower part in repair. I am very grateful that I referred to the repair as to my own. Great thanks I express the project
@@ -298,11 +308,11 @@
               </div>
               <div class="clients__card-data-container">
                 <div class="clients__card-data">
-                  <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="">
+                  <img class="clients__card-data-img" src="./images/size_measure_icon.svg" alt="measure icon">
                   <p class="clients__card-data-description">56 m2</p>
                 </div>
                 <div class="clients__card-data">
-                  <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="">
+                  <img class="clients__card-data-img" src="./images/notepad_icon.svg" alt="notepad icon">
                   <p class="clients__card-data-description">86 DAYS</p>
                 </div>
               </div>
@@ -338,7 +348,7 @@
           </div>
         </form>
         <h2 class="contacts__title">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h2>
-        <a class="contacts__link" href="#"><img class="contacts__link-img" src="./images/message_icon.svg" alt=""></a>
+        <a class="contacts__link" href="#"><img class="contacts__link-img" src="./images/message_icon.svg" alt="social links icons"></a>
         <img class="contacts__map" src="./images/map.png" alt="map">
       </div>
     </section>

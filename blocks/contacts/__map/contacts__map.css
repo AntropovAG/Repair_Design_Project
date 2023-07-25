@@ -2,4 +2,14 @@
   width: 925px;
   height: 465px;
   margin-top: 43px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1300px) {
+  .contacts__map {
+    width: 340px;
+    height: 255px;
+    margin-top: 46px;
+    order: 1;
+  }
 }

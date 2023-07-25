@@ -1,5 +1,17 @@
 .control__form-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 231px 231px 200px;
+  grid-template-rows: repeat(2, min-content);
   justify-content: space-between;
   margin-bottom: 33px;
+  row-gap: 39px;
+}
+
+@media screen and (max-width: 1300px) {
+  .control__form-container {
+    grid-template-columns: 340px;
+    grid-template-rows: repeat(4, min-content);
+    gap: 63px;
+    margin-bottom: -27px;
+  }
 }

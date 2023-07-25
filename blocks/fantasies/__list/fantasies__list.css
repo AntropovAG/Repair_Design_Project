@@ -6,3 +6,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .fantasies__list {
+    display: none;
+  }
+}

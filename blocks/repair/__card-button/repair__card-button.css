@@ -9,5 +9,16 @@
   line-height: 138.6%;
   text-transform: uppercase;
   margin: -26px 0 0 31px;
-  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
+}
+
+@media screen and (max-width: 1300px) {
+  .repair__card-button {
+    max-width: 190px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: -20px;
+    margin-left: 0;
+  }
 }

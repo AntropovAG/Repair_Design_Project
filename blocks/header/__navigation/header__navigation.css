@@ -5,3 +5,9 @@
   display: flex;
   gap: 47px;
 }
+
+@media screen and (max-width: 1300px) {
+  .header__navigation {
+    display: none;
+  }
+}

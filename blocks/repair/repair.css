@@ -1,3 +1,10 @@
 .repair {
   margin-bottom: 230px;
 }
+
+@media screen and (max-width: 1300px) {
+  .repair {
+    margin-bottom: 55px;
+    margin-top: 83px;
+  }
+}

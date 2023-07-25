@@ -11,3 +11,12 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__title {
+    max-width: 200px;
+    font-size: 22px;
+    letter-spacing: -1.54px;
+    text-align: center;
+  }
+}

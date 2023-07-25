@@ -4,3 +4,9 @@
   height: 482px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1300px) {
+  .completed-projects__img {
+    display: none;
+  }
+}

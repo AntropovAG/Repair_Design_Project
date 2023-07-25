@@ -3,3 +3,9 @@
   max-width: 1239px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1300px) {
+  .fantasies__container {
+    max-width: 340px;
+  }
+}

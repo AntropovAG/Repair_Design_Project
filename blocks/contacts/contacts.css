@@ -19,3 +19,16 @@
   right: 0;
   background: linear-gradient(180deg, rgba(24, 24, 24, 0.90) 3.47%, rgba(24, 24, 24, 0.72) 100%);
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts {
+    background-image: none;
+    background-color: #181818;
+    margin-top: -121px;
+    height: auto;
+  }
+
+  .contacts::before {
+    display: none;
+  }
+}

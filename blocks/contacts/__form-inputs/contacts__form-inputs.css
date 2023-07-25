@@ -5,3 +5,13 @@
   margin-top: 45px;
   margin-bottom: 45px;
 }
+
+@media screen and (max-width: 1300px) {
+  .contacts__form-inputs {
+    grid-template-columns: 340px;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-bottom: 63px;
+    gap: 63px;
+  }
+}

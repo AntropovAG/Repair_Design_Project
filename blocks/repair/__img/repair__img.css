@@ -2,3 +2,10 @@
   width: 114px;
   margin: 13px 0 31px 0;
 }
+
+@media screen and (max-width: 1300px) {
+  .repair__img {
+    margin-top: 17px;
+    margin-bottom: 40px;
+  }
+}
