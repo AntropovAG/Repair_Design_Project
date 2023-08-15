@@ -1,0 +1,12 @@
+.completed-projects__button {
+  border: none;
+  background: transparent;
+  width: 41px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.completed-projects__button:hover {
+  opacity: .7;
+  transition: all .3s ease-in-out;
+}

@@ -1,0 +1,6 @@
+.completed-projects__radio-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 64px;
+  position: relative;
+}
