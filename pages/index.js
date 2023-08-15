@@ -39,64 +39,56 @@ const navigationLinks = document.querySelectorAll(".completed-projects__link");
 
 let currentIndex = 0;
 
-function rednerCards (arr) {
-  image.src = arr[currentIndex].image;
-  image.alt = arr[currentIndex].alt;
-  city.innerHTML = arr[currentIndex].city;
-  area.innerHTML = arr[currentIndex].area;
-  time.innerHTML = arr[currentIndex].time;
-  cost.innerHTML = arr[currentIndex].cost;
-  navigationDots[currentIndex].classList.add("completed-projects__radio-button_type_selected")
-  navigationLinks[currentIndex].classList.add("completed-projects__link_type_selected");
+function rednerCard (arr, index) {
+  image.src = arr[index].image;
+  image.alt = arr[index].alt;
+  city.innerHTML = arr[index].city;
+  area.innerHTML = arr[index].area;
+  time.innerHTML = arr[index].time;
+  cost.innerHTML = arr[index].cost;
+  navigationDots[index].classList.add("completed-projects__radio-button_type_selected")
+  navigationLinks[index].classList.add("completed-projects__link_type_selected");
 }
 
-rednerCards(cardsInfo);
-
-function renderCard (item) {
-  navigationLinks[currentIndex].classList.remove("completed-projects__link_type_selected");
-  navigationDots[currentIndex].classList.remove("completed-projects__radio-button_type_selected")
-  currentIndex = Number(item.dataset.index);
-  image.src = cardsInfo[currentIndex].image;
-  image.alt = cardsInfo[currentIndex].alt;
-  city.innerHTML = cardsInfo[currentIndex].city;
-  area.innerHTML = cardsInfo[currentIndex].area;
-  time.innerHTML = cardsInfo[currentIndex].time;
-  cost.innerHTML = cardsInfo[currentIndex].cost;
-  navigationDots[currentIndex].classList.add("completed-projects__radio-button_type_selected");
-  navigationLinks[currentIndex].classList.add("completed-projects__link_type_selected");
-  return currentIndex;
+function hideStyle (index) {
+  navigationLinks[index].classList.remove("completed-projects__link_type_selected");
+  navigationDots[index].classList.remove("completed-projects__radio-button_type_selected")
 }
+
+rednerCard(cardsInfo, currentIndex);
 
 navigationDots.forEach((item) => {
   item.addEventListener("click", () => {
-    renderCard(item)
+    hideStyle(currentIndex);
+    currentIndex = Number(item.dataset.index);
+    rednerCard(cardsInfo, currentIndex)
   })
 });
 
 navigationLinks.forEach(item => {
   item.addEventListener("click", () => {
-    renderCard(item)
+    hideStyle(currentIndex);
+    currentIndex = Number(item.dataset.index);
+    rednerCard(cardsInfo, currentIndex)
   })
 })
 
 leftButton.addEventListener('click', () => {
-    navigationLinks[currentIndex].classList.remove("completed-projects__link_type_selected");
-    navigationDots[currentIndex].classList.remove("completed-projects__radio-button_type_selected")
+    hideStyle(currentIndex);
     if(currentIndex <= 0) {
     currentIndex = cardsInfo.length - 1;
     } else {
     currentIndex = currentIndex - 1;
 }
-    rednerCards(cardsInfo);
+rednerCard(cardsInfo, currentIndex)
 });
 
 rightButton.addEventListener('click', () => {
-    navigationLinks[currentIndex].classList.remove("completed-projects__link_type_selected");
-    navigationDots[currentIndex].classList.remove("completed-projects__radio-button_type_selected")
+    hideStyle(currentIndex);
     if(currentIndex >= (cardsInfo.length - 1)) {
     currentIndex = 0;
     } else {
     currentIndex = currentIndex + 1;
 }
-    rednerCards(cardsInfo);
+rednerCard(cardsInfo, currentIndex)
 });
