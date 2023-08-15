@@ -34,6 +34,12 @@
 @import url(../blocks/completed-projects/__img/completed-projects__img.css);
 @import url(../blocks/completed-projects/__carousel/completed-project__carousel.css);
 @import url(../blocks/completed-projects/__carousel-img/completed-project__carousel-img.css);
+@import url(../blocks/completed-projects/__button/completed-projects__button.css);
+@import url(../blocks/completed-projects/__button/_type/_left/completed-projects__button_type_left.css);
+@import url(../blocks/completed-projects/__button/_type/_right/completed-projects__button_type_right.css);
+@import url(../blocks/completed-projects/__radio-button-container/completed-projects__radio-button-container.css);
+@import url(../blocks/completed-projects/__radio-button/completed-projects__radio-button.css);
+@import url(../blocks/completed-projects/__radio-button/_type/_selected/completed-projects__radio-button_type_selected.css);
 @import url(../blocks/completed-projects/__carousel-button/completed-project__carousel-button.css);
 @import url(../blocks/completed-projects/__carousel-button/_type/_left/completed-project__carousel-button_type_left.css);
 @import url(../blocks/completed-projects/__carousel-button/_type/_right/completed-project__carousel-button_type_right.css);

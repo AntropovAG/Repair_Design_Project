@@ -54,24 +54,32 @@
             <div class="completed-projects__data-container">
               <div class="completed-projects__data">
                 <h3 class="completed-projects__data-title">City:</h3>
-                <p class="completed-projects__data-description">Rostov-on-Don LCD admiral</p>
+                <p class="completed-projects__data-description" id="city">Rostov-on-Don LCD admiral</p>
               </div>
               <div class="completed-projects__data">
                 <h3 class="completed-projects__data-title">apartment area:</h3>
-                <p class="completed-projects__data-description">81 m2</p>
+                <p class="completed-projects__data-description" id="area">81 m2</p>
               </div>
               <div class="completed-projects__data">
                 <h3 class="completed-projects__data-title">Repair time:</h3>
-                <p class="completed-projects__data-description">3.5 months</p>
+                <p class="completed-projects__data-description" id="time">3.5 months</p>
               </div>
               <div class="completed-projects__data">
                 <h3 class="completed-projects__data-title">Repair Cost:</h3>
-                <p class="completed-projects__data-description">Upon request</p>
+                <p class="completed-projects__data-description" id="cost">Upon request</p>
               </div>
             </div>
-            <img class="completed-projects__data-button" src="./images/arrows.svg" alt="navigation arrows">
+            <div class="completed-projects__data-button">
+              <button class="completed-projects__button completed-projects__button_type_left" id="left-button" type="button"></button>
+              <div class="completed-projects__radio-button-container">
+                <button class="completed-projects__radio-button" id="0" type="button"></button>
+                <button class="completed-projects__radio-button" id="1" type="button"></button>
+                <button class="completed-projects__radio-button" id="2" type="button"></button>
+              </div>
+              <button class="completed-projects__button completed-projects__button_type_right" id="right-button" type="button"></button>
+            </div>
         </div>
-        <img class="completed-projects__img" src="./images/balcony_image.png" alt="balcony">
+        <img class="completed-projects__img" src="./images/balcony_image.png" id="image" alt="balcony">
       </div>
     </section>
     <section class="control">
@@ -370,5 +378,6 @@
       <button class="footer__button button" type="button">Request a call</button>
     </div>
   </footer>
+  <script src="./pages/index.js"></script>
 </body>
 </html>
