@@ -27,8 +27,8 @@ const cardsInfo = [
   }
 ];
 
-const leftButton = document.querySelector("#left-button");
-const rightButton = document.querySelector("#right-button");
+const prevButton = document.querySelector("#left-button");
+const nextButton = document.querySelector("#right-button");
 const image = document.querySelector("#image");
 const city = document.querySelector("#city");
 const area = document.querySelector("#area");
@@ -73,7 +73,7 @@ navigationLinks.forEach(item => {
   })
 })
 
-leftButton.addEventListener('click', () => {
+prevButton.addEventListener('click', () => {
     hideStyle(currentIndex);
     if(currentIndex <= 0) {
     currentIndex = cardsInfo.length - 1;
@@ -83,7 +83,7 @@ leftButton.addEventListener('click', () => {
 rednerCard(cardsInfo, currentIndex)
 });
 
-rightButton.addEventListener('click', () => {
+nextButton.addEventListener('click', () => {
     hideStyle(currentIndex);
     if(currentIndex >= (cardsInfo.length - 1)) {
     currentIndex = 0;
